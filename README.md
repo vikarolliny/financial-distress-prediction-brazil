@@ -1,4 +1,4 @@
-# Indicadores financeiros e alerta antecipado de dificuldade financeira em companhias brasileiras
+# É possível antecipar dificuldades financeiras em empresas brasileiras com Machine Learning?
 
 **Estudo de Estatística e Machine Learning aplicado a informações contábeis da CVM.**
 
