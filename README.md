@@ -51,7 +51,7 @@ Os resultados não são uma ferramenta validada de decisão automática nem reco
 
 ## Como acessar os códigos
 
-Os notebooks estão em [`notebooks/`](notebooks/). A ordem de execução e os arquivos necessários estão em [`docs/GUIA_EXECUCAO_COLAB.md`](docs/GUIA_EXECUCAO_COLAB.md). As figuras estão em [`figures/`](figures/) e as tabelas consolidadas em [`results/`](results/).
+Os notebooks estão disponíveis em notebook.
 
 ## Artigo e referências
 
