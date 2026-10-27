@@ -55,7 +55,7 @@ Os notebooks estão disponíveis em notebook.
 
 ## Artigo e referências
 
-- Artigo no Medium: **[inserir link após a publicação]**.
+- Artigo no Medium: **(https://medium.com/@vitoriakarollinys/%C3%A9-poss%C3%ADvel-antecipar-dificuldades-financeiras-em-empresas-brasileiras-com-machine-learning-93a548cb553a?sharedUserId=vitoriakarollinys)**.
 - Chaves, R. M. (2025). *Nonstationary and Imbalanced Dataset for Financial Distress Prediction*. IEEE DataPort. https://doi.org/10.21227/x8ry-gz76
 - Dicionário/arquivo original: https://github.com/rubensmchaves/ml-fdp
 
