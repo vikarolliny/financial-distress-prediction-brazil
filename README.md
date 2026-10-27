@@ -2,7 +2,6 @@
 
 **Estudo de Estatística e Machine Learning aplicado a informações contábeis da CVM.**
 
-![Desempenho temporal dos modelos](figures/02_desempenho_temporal.png)
 
 ## Problema investigado
 
@@ -31,7 +30,6 @@ Foram comparados os modelos **Regressão Logística** e **Random Forest** em val
 | 2019–2020 | 0,445% | **4,840%** | 1,099% |
 | 2022–2023 (até março) | 1,507% | 5,240% | **5,869%** |
 
-![Recuperação no Top 5%](figures/03_ranking_top5_empresas.png)
 
 Os modelos superaram a referência da prevalência nos três períodos, mas os valores absolutos de AP foram modestos. No **Top 5% de registros empresa-trimestre**, a Random Forest recuperou pelo menos um registro de 4/9, 3/8 e 6/23 empresas positivas, respectivamente, enquanto a regressão logística recuperou 1/9, 1/8 e 8/23.
 
@@ -42,7 +40,6 @@ Os modelos superaram a referência da prevalência nos três períodos, mas os v
 - **A42 (patrimônio líquido/dívida)** e **A38 (liquidez imediata)** apresentaram contribuição positiva em dois dos três períodos.
 - Na comparação retrospectiva de **47 empresas com evento** com **141 trajetórias de controle**, as evidências mais consistentes corresponderam a **diferenças de nível anteriores ao evento**, e não à demonstração de deterioração progressiva diferenciada.
 
-![Indicadores selecionados antes do evento](figures/05_niveis_indicadores_antes_evento.png)
 
 ## Verificações e limitações
 
@@ -55,10 +52,6 @@ Os resultados não são uma ferramenta validada de decisão automática nem reco
 ## Como acessar os códigos
 
 Os notebooks estão em [`notebooks/`](notebooks/). A ordem de execução e os arquivos necessários estão em [`docs/GUIA_EXECUCAO_COLAB.md`](docs/GUIA_EXECUCAO_COLAB.md). As figuras estão em [`figures/`](figures/) e as tabelas consolidadas em [`results/`](results/).
-
-**Importante:** a Etapa 07 original foi preservada apenas em [`notebooks/historico/`](notebooks/historico/), pois sua interpretação inicial das trajetórias foi substituída pela análise corrigida documentada em [`docs/RELATORIO_TRAJETORIAS_CORRIGIDAS.md`](docs/RELATORIO_TRAJETORIAS_CORRIGIDAS.md).
-
-O notebook `14_figuras_Medium_paleta_negocios_CVM.ipynb` reproduz as sete figuras a partir dos CSVs resumidos; **não refaz o treinamento**. Os insumos estão em `results/insumos_figuras/` e também podem ser compactados em um ZIP para upload individual ao Colab.
 
 ## Artigo e referências
 
